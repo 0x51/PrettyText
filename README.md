@@ -5,11 +5,35 @@
 ![Language](https://img.shields.io/badge/language-Swift-brightgreen.svg?style=flat)
 <!--[![Build Status](https://travis-ci.org/PhamBaTho/BTNavigationDropdownMenu.svg?branch=master)](https://travis-ci.org/qxh/PrettyText)-->
 
+PrettyText is a light-weight framework which wraps NSAttributedString with a nicer syntax. PrettyText has its own DSL which provides a chainable way of describing your NSAttributedString which results in code that is more concise and readable.
+PrettyText supports iOS and Mac OS X
+
+========
+
+## What's wrong with NSLayoutConstraints?
+It's not a secret that NSAttributedString API is far from perfect. Based on NSDictionary, it looks ugly, counter-OOP and hard to maintain...
+
+```swift
+var attributedString = NSMutableAttributedString(string: "This is PrettyText\n优美的文字")
+attributedString.addAttributes([NSForegroundColorAttributeName: [UIColor greenColor]
+                                  , NSFontAttributeName: fnt2.fontWithSize(20)
+                                  , NSBackgroundColorAttributeName: @2],
+                          range:NSMakeRange(0, attributedString.string.charactors.count))
+attributedString.addAttributes([NSForegroundColorAttributeName: UIColor.blueColor()
+                                  , NSFontAttributeName: fnt2.fontWithSize(30)
+                          range:NSMakeRange(14, 5))
+attributedString.addAttributes:([NSStrikethroughStyleAttributeName: NSUnderlineStyleSingle.rawValue
+                                  , NSStrikethroughColorAttributeName: UIColor.redColor()
+                                  , NSBackgroundColorAttributeName: UIColor.yellowColor()]
+                          range:NSMakeRange(19, 5))
+_attributedTextView2.attributedText = attributedString
+```
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-* Chainable API
+* Chainable Methods
 * [SnapKit](https://github.com/SnapKit/SnapKit) like DSL
 
 ```swift
