@@ -110,11 +110,11 @@
 		E6E7B15FAD6C56681511813DB2666478 /* AssertionRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469EEA828792C10E022D4BDE6B3CF9F5 /* AssertionRecorder.swift */; };
 		EB4B552197F8D2B1207528E345715ABC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6F567A0F84D52EF356BEDCB9F4C9AE7 /* Foundation.framework */; };
 		EDD91D0CC316AC322E1607D3749F1C0A /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = E1957A6F490F75CF4F5E65AE6F95B60D /* UIImage+Snapshot.m */; };
+		EE0A7F221C9B0FBF0087B55D /* NSAttributedString+PrettyText.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0A7F1E1C9B0FBF0087B55D /* NSAttributedString+PrettyText.swift */; };
+		EE0A7F231C9B0FBF0087B55D /* PrettyAttributeProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0A7F1F1C9B0FBF0087B55D /* PrettyAttributeProvider.swift */; };
+		EE0A7F241C9B0FBF0087B55D /* PrettyTextMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0A7F201C9B0FBF0087B55D /* PrettyTextMaker.swift */; };
+		EE0A7F251C9B0FBF0087B55D /* String+PrettyText.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0A7F211C9B0FBF0087B55D /* String+PrettyText.swift */; };
 		EE75BFF7CEB96127A821936D107A0183 /* QCKDSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0CE398ED47A90A49FD1D48ED4788C3 /* QCKDSL.m */; };
-		EED80FC81C9997680035FF6C /* PrettyTextMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED80FC71C9997680035FF6C /* PrettyTextMaker.swift */; };
-		EED80FCA1C999A500035FF6C /* String+PrettyText.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED80FC91C999A500035FF6C /* String+PrettyText.swift */; };
-		EED80FCC1C999A7D0035FF6C /* NSAttributedString+PrettyText.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED80FCB1C999A7D0035FF6C /* NSAttributedString+PrettyText.swift */; };
-		EED80FCE1C999AAD0035FF6C /* PrettyAttributeProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED80FCD1C999AAD0035FF6C /* PrettyAttributeProvider.swift */; };
 		F10FD3129985704FA1610F84FB98EDF5 /* Stringers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CF27DB4E86CF523DBB7718DD1F8A5D /* Stringers.swift */; };
 		F1D4A8A1FC68EFA7F45945908D70A352 /* BeNil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D7137A6D7EFBB6E057D6D4955B5B90 /* BeNil.swift */; };
 		F8244422337BCD152CEB1F1B35CF6FF1 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43446494C68555558AD6AE7D61940B4A /* Filter.swift */; };
@@ -324,10 +324,10 @@
 		E90473C7447B312C9C0AD27EE990A0CB /* Nimble-Snapshots-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nimble-Snapshots-prefix.pch"; sourceTree = "<group>"; };
 		EAD96117C39A7B5100135D5FCBDEBAFE /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		EC2E143CBF3FB3E44B80D7226565B18A /* PrettyText-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PrettyText-umbrella.h"; sourceTree = "<group>"; };
-		EED80FC71C9997680035FF6C /* PrettyTextMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PrettyTextMaker.swift; path = ../../../PrettyText/Pod/Classes/PrettyTextMaker.swift; sourceTree = "<group>"; };
-		EED80FC91C999A500035FF6C /* String+PrettyText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+PrettyText.swift"; sourceTree = "<group>"; };
-		EED80FCB1C999A7D0035FF6C /* NSAttributedString+PrettyText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+PrettyText.swift"; sourceTree = "<group>"; };
-		EED80FCD1C999AAD0035FF6C /* PrettyAttributeProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrettyAttributeProvider.swift; sourceTree = "<group>"; };
+		EE0A7F1E1C9B0FBF0087B55D /* NSAttributedString+PrettyText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+PrettyText.swift"; sourceTree = "<group>"; };
+		EE0A7F1F1C9B0FBF0087B55D /* PrettyAttributeProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrettyAttributeProvider.swift; sourceTree = "<group>"; };
+		EE0A7F201C9B0FBF0087B55D /* PrettyTextMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrettyTextMaker.swift; sourceTree = "<group>"; };
+		EE0A7F211C9B0FBF0087B55D /* String+PrettyText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+PrettyText.swift"; sourceTree = "<group>"; };
 		EFF85B7B0BF51A552D844949D3CAB5FB /* Pods-PrettyText_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PrettyText_Tests-resources.sh"; sourceTree = "<group>"; };
 		F316D7D9B18E35FB64D1A59FFDC944D3 /* Pods-PrettyText_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PrettyText_Tests.modulemap"; sourceTree = "<group>"; };
 		F4A7503AAF3BA8144C1103305BE6E6A9 /* Nimble-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nimble-umbrella.h"; sourceTree = "<group>"; };
@@ -520,7 +520,7 @@
 		3757ECFE8FED132ADB82C984B650DEE6 /* PrettyText */ = {
 			isa = PBXGroup;
 			children = (
-				D39FB05D6CB3B17AE93B8CEFF2FA7285 /* Source */,
+				EE0A7F1D1C9B0FBF0087B55D /* Source */,
 				0150885408C4E524BCC61D2BB3B5B36A /* Support Files */,
 			);
 			name = PrettyText;
@@ -670,17 +670,6 @@
 			path = "Target Support Files/Pods-PrettyText_Tests";
 			sourceTree = "<group>";
 		};
-		D39FB05D6CB3B17AE93B8CEFF2FA7285 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				EED80FC71C9997680035FF6C /* PrettyTextMaker.swift */,
-				EED80FCD1C999AAD0035FF6C /* PrettyAttributeProvider.swift */,
-				EED80FC91C999A500035FF6C /* String+PrettyText.swift */,
-				EED80FCB1C999A7D0035FF6C /* NSAttributedString+PrettyText.swift */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
 		D3F1D88ECF09A79CD47A6CEE55D67F67 /* FBSnapshotTestCase */ = {
 			isa = PBXGroup;
 			children = (
@@ -740,6 +729,17 @@
 				0A1869DF3DD98A1BE59ACF582C7FCBAD /* Support Files */,
 			);
 			path = Nimble;
+			sourceTree = "<group>";
+		};
+		EE0A7F1D1C9B0FBF0087B55D /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				EE0A7F1E1C9B0FBF0087B55D /* NSAttributedString+PrettyText.swift */,
+				EE0A7F1F1C9B0FBF0087B55D /* PrettyAttributeProvider.swift */,
+				EE0A7F201C9B0FBF0087B55D /* PrettyTextMaker.swift */,
+				EE0A7F211C9B0FBF0087B55D /* String+PrettyText.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1042,11 +1042,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EED80FCE1C999AAD0035FF6C /* PrettyAttributeProvider.swift in Sources */,
+				EE0A7F221C9B0FBF0087B55D /* NSAttributedString+PrettyText.swift in Sources */,
+				EE0A7F241C9B0FBF0087B55D /* PrettyTextMaker.swift in Sources */,
 				772F24D02BB773C72EA78CB839732F19 /* PrettyText-dummy.m in Sources */,
-				EED80FCA1C999A500035FF6C /* String+PrettyText.swift in Sources */,
-				EED80FCC1C999A7D0035FF6C /* NSAttributedString+PrettyText.swift in Sources */,
-				EED80FC81C9997680035FF6C /* PrettyTextMaker.swift in Sources */,
+				EE0A7F231C9B0FBF0087B55D /* PrettyAttributeProvider.swift in Sources */,
+				EE0A7F251C9B0FBF0087B55D /* String+PrettyText.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
