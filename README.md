@@ -64,34 +64,34 @@ If you don't specify range, full range of string will be used.
 Which attributes BOString supports? It supports a lot of them:
 
 ```
-font;
-paragraphStyle;
-color;
-backgroundColor;
-ligature;
-kern;
-strikethroughStyle;
-underlineStyle;
-strokeColor;
-strokeWidth;
-shadow;
-textEffect;           // iOS only
-attachment;
-link;
-baselineOffset;
-underlineColor;
-strikethroughColor;
-obliqueness;
-expansion;
-writingDirection;
-verticalGlyphForm;
-superscript;          // OS X only
-cursor;               // OS X only
-toolTip;              // OS X only
-characterShape;       // OS X only
-glyphInfo;            // OS X only
-markedClauseSegment;  // OS X only
-textAlternatives;     // OS X only
+pt_font;
+pt_paragraphStyle;
+pt_color;
+pt_backgroundColor;
+pt_ligature;
+pt_kern;
+pt_strikethroughStyle;
+pt_underlineStyle;
+pt_strokeColor;
+pt_strokeWidth;
+pt_shadow;
+pt_textEffect;           // iOS only
+pt_attachment;
+pt_link;
+pt_baselineOffset;
+pt_underlineColor;
+pt_strikethroughColor;
+pt_obliqueness;
+pt_expansion;
+pt_writingDirection;
+pt_verticalGlyphForm;
+pt_superscript;          // OS X only
+pt_cursor;               // OS X only
+pt_toolTip;              // OS X only
+pt_characterShape;       // OS X only
+pt_glyphInfo;            // OS X only
+pt_markedClauseSegment;  // OS X only
+pt_textAlternatives;     // OS X only
 ```
 
 ## Installation
