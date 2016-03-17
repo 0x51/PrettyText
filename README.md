@@ -66,7 +66,7 @@ Which attributes BOString supports? It supports a lot of them:
 ```
 font;
 paragraphStyle;
-foregroundColor;
+color;
 backgroundColor;
 ligature;
 kern;
