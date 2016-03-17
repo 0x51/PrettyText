@@ -75,6 +75,23 @@ underlineStyle;
 strokeColor;
 strokeWidth;
 shadow;
+textEffect;           // iOS only
+attachment;
+link;
+baselineOffset;
+underlineColor;
+strikethroughColor;
+obliqueness;
+expansion;
+writingDirection;
+verticalGlyphForm;
+superscript;          // OS X only
+cursor;               // OS X only
+toolTip;              // OS X only
+characterShape;       // OS X only
+glyphInfo;            // OS X only
+markedClauseSegment;  // OS X only
+textAlternatives;     // OS X only
 ```
 
 ## Installation
