@@ -32,8 +32,6 @@ let prettyText = "This is PrettyText\n优美的文字".pt_font(UIFont.systemFont
             }
 ```
 
-## Requirements
-
 ## Installation
 
 PrettyText is available through [CocoaPods](http://cocoapods.org). To install
