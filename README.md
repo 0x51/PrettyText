@@ -9,6 +9,29 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+```swift
+let prettyText = "This is PrettyText\n优美的文字".pt_font(UIFont.systemFontOfSize(20))
+            .pt_color(UIColor.greenColor())
+            .pt_backgroundColor(UIColor.blackColor())
+            .pt_addAttributes(NSMakeRange(8, 6)) { make in
+                make.pt_font(UIFont.systemFontOfSize(30))
+                    .pt_color(UIColor.redColor())
+                    .pt_backgroundColor(UIColor.blueColor())
+            }
+            .pt_addAttributes(NSMakeRange(14, 4)) { make in
+                make.pt_font(UIFont.systemFontOfSize(30))
+                    .pt_color(UIColor.orangeColor())
+                    .pt_backgroundColor(UIColor.blueColor())
+            }
+            .pt_addAttributes(NSMakeRange(19, 5)) { make in
+                make.pt_font(UIFont.systemFontOfSize(50))
+                    .pt_color(UIColor.whiteColor())
+                    .pt_backgroundColor(UIColor.whiteColor())
+                    .pt_strokeColor(UIColor.blackColor())
+                    .pt_strokeWidth(1)
+            }
+```
+
 ## Requirements
 
 ## Installation
