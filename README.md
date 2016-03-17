@@ -59,6 +59,24 @@ let prettyText = "This is PrettyText\n优美的文字".pt_font(UIFont.systemFont
             }
 ```
 
+If you don't specify range, full range of string will be used.
+
+Which attributes BOString supports? It supports a lot of them:
+
+```
+font;
+paragraphStyle;
+foregroundColor;
+backgroundColor;
+ligature;
+kern;
+strikethroughStyle;
+underlineStyle;
+strokeColor;
+strokeWidth;
+shadow;
+```
+
 ## Installation
 
 PrettyText is available through [CocoaPods](http://cocoapods.org). To install
