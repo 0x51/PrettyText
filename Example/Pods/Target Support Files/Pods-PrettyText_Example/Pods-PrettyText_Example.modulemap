@@ -1,0 +1,6 @@
+framework module Pods_PrettyText_Example {
+  umbrella header "Pods-PrettyText_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
