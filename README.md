@@ -1,9 +1,9 @@
 # PrettyText
 
-[![CI Status](http://img.shields.io/travis/qxh/PrettyText.svg?style=flat)](https://travis-ci.org/qxh/PrettyText)
-[![Version](https://img.shields.io/cocoapods/v/PrettyText.svg?style=flat)](http://cocoapods.org/pods/PrettyText)
-[![License](https://img.shields.io/cocoapods/l/PrettyText.svg?style=flat)](http://cocoapods.org/pods/PrettyText)
-[![Platform](https://img.shields.io/cocoapods/p/PrettyText.svg?style=flat)](http://cocoapods.org/pods/PrettyText)
+<!--[![Pod Version](https://img.shields.io/cocoapods/v/PrettyText.svg?style=flat)](http://cocoadocs.org/docsets/PrettyText/)-->
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/heartfly/PrettyText/blob/master/LICENSE)
+![Language](https://img.shields.io/badge/language-Swift-brightgreen.svg?style=flat)
+<!--[![Build Status](https://travis-ci.org/PhamBaTho/BTNavigationDropdownMenu.svg?branch=master)](https://travis-ci.org/qxh/PrettyText)-->
 
 ## Usage
 
