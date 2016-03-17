@@ -33,7 +33,7 @@ _attributedTextView2.attributedText = attributedString
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-* Chainable Methods
+* Method Chaining
 * [SnapKit](https://github.com/SnapKit/SnapKit) like DSL
 
 ```swift
