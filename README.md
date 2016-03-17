@@ -9,6 +9,9 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+* Chainable API
+* [SnapKit](https://github.com/SnapKit/SnapKit) like DSL
+
 ```swift
 let prettyText = "This is PrettyText\n优美的文字".pt_font(UIFont.systemFontOfSize(20))
             .pt_color(UIColor.greenColor())
