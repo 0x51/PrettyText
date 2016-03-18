@@ -37,6 +37,8 @@ class ViewController: UIViewController {
                     .pt_backgroundColor(UIColor.whiteColor())
                     .pt_strokeColor(UIColor.blackColor())
                     .pt_strokeWidth(1)
+                    .pt_underlineStyle(.StyleSingle)
+                    .pt_underlineColor(UIColor.blackColor())
             }
         
         print(prettyText)

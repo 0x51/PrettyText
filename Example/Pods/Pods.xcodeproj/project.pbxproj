@@ -734,10 +734,10 @@
 		EE0A7F1D1C9B0FBF0087B55D /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				EE0A7F1E1C9B0FBF0087B55D /* NSAttributedString+PrettyText.swift */,
 				EE0A7F1F1C9B0FBF0087B55D /* PrettyAttributeProvider.swift */,
 				EE0A7F201C9B0FBF0087B55D /* PrettyTextMaker.swift */,
 				EE0A7F211C9B0FBF0087B55D /* String+PrettyText.swift */,
+				EE0A7F1E1C9B0FBF0087B55D /* NSAttributedString+PrettyText.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";

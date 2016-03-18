@@ -84,8 +84,38 @@ public extension PrettyAttributeProvider {
     }
     
     public func pt_shadow(shadow: NSShadow) -> PrettyText {
-        return self.pt_attribute(NSStrokeWidthAttributeName, value: shadow)
+        return self.pt_attribute(NSShadowAttributeName, value: shadow)
     }
+    
+    public func pt_textEffect(textEffect: String) -> PrettyText {
+        return self.pt_attribute(NSTextEffectAttributeName, value: textEffect)
+    }
+
+    public func pt_attachment(attachment: NSTextAttachment) -> PrettyText {
+        return self.pt_attribute(NSAttachmentAttributeName, value: attachment)
+    }
+
+    public func pt_link(url: NSURL) -> PrettyText {
+        return self.pt_attribute(NSLinkAttributeName, value: url)
+    }
+    
+    public func pt_baselineOffset(offset: Float) -> PrettyText {
+        return self.pt_attribute(NSBaselineOffsetAttributeName, value: offset)
+    }
+
+    public func pt_obliqueness(obliqueness: Float) -> PrettyText {
+        return self.pt_attribute(NSObliquenessAttributeName, value: obliqueness)
+    }
+    
+    public func pt_expansion(expansion: Float) -> PrettyText {
+        return self.pt_attribute(NSExpansionAttributeName, value: expansion)
+    }
+
+    public func pt_writingDirection(direction: String) -> PrettyText {
+        return self.pt_attribute(NSWritingDirectionAttributeName, value: direction)
+    }
+    
+    
     
     public func pt_verticalGlyphForm(form: Int) -> PrettyText {
         return self.pt_attribute(NSVerticalGlyphFormAttributeName, value: form)

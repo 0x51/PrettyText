@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "PrettyText"
-  s.version          = "0.1.0"
+  s.version          = "0.2.0"
   s.summary          = "A Swift Way To Create NSAttributedString!"
 
 # This description is used to generate tags and improve search results.
