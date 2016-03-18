@@ -6,7 +6,7 @@
 <!--[![Build Status](https://travis-ci.org/PhamBaTho/BTNavigationDropdownMenu.svg?branch=master)](https://travis-ci.org/qxh/PrettyText)-->
 
 PrettyText is a light-weight framework which wraps NSAttributedString with a nicer syntax. PrettyText has its own DSL which provides a chainable way of describing your NSAttributedString which results in code that is more concise and readable.
-PrettyText supports iOS
+PrettyText supports iOS and OS X.
 
 ========
 
