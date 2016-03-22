@@ -10,7 +10,7 @@ PrettyText supports iOS and OS X.
 
 ========
 
-## What's wrong with NSLayoutConstraints?
+## What's wrong with NSAttributedString?
 It's not a secret that NSAttributedString API is far from perfect. Based on NSDictionary, it looks ugly, counter-OOP and hard to maintain...
 
 ```swift
