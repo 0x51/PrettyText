@@ -3,13 +3,13 @@
   "version": "0.1.0",
   "summary": "A short description of PrettyText.",
   "description": "",
-  "homepage": "https://github.com/0x51/PrettyText",
+  "homepage": "https://github.com/holyq/PrettyText",
   "license": "MIT",
   "authors": {
     "qxh": "qxh@mail.com"
   },
   "source": {
-    "git": "https://github.com/0x51/PrettyText.git",
+    "git": "https://github.com/holyq/PrettyText.git",
     "tag": "0.1.0"
   },
   "platforms": {
