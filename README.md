@@ -93,7 +93,7 @@ PrettyText is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "PrettyText", :git => "https://github.com/imqxh/PrettyText.git"
+pod "PrettyText", :git => "https://github.com/heartfly/PrettyText.git"
 ```
 
 ## Author
